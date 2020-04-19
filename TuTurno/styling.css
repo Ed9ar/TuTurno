@@ -1,0 +1,162 @@
+.jumbotron{
+/*    background: url(images/donuts.jpg) center center;*/
+    background-color: #FFB181;
+    background-size: cover;
+    height: 600px;
+}
+
+#mainNav{
+    background-color: #FFB181;
+    
+}
+
+#nelements a{
+    padding-right: 15px;
+    color: #FFF5F0;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+    border-right: 1px solid #5d12e7; 
+    border-color: #FFF5F0;
+}
+
+#nelements a:last-child{
+    border-right: none;
+}
+#nelements a:hover{
+    font-size:15px;
+    font-weight: bold;
+    color: #ff724f;
+}
+
+
+
+
+.logo{
+   float: left;
+   width: 200px;
+    height: 120px;
+}
+
+.featured{
+    padding-left: 260px;
+    color: black;
+    font-weight:bold;
+    font-family: Mont-Heavy;
+}
+
+
+.featured .btn-default{
+    font-weight:bold;
+    color:white;
+    background-color:rgba(145,82,58, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 160px;
+    margin-right: 15px;
+}
+
+
+.featured .btn-default:hover{
+    background-color:rgb(145,82,58);
+}
+
+.trial{
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color: black;
+}
+
+.trial img{
+    width: 200px;
+    height: 70px;
+    padding-left: 10px;
+}
+
+    
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+.text{
+    width: 200px;
+    float:left;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0c;
+    background: white url(imgs/search.png) left center no-repeat;
+    border: 1px solid #C8D03E;  
+}
+.submit{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.footer {
+    color: #7C7B7B;
+    font-size:15px;
+    padding:10px 0;}
+  margin-top: 15px;
+  bottom: 0;
+  width: 100%;
+    margin-top: 10px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-top: 3px solid #884811;
+    /* Footer height */
+}
+
+
+@media(min-width:480px) and (max-width:768px){
+    .jumbotron{
+        height: 410px;
+        margin:0;
+    }
+    .logo{
+        width: 100;
+        height: 60px;
+    }
+    .featured p{
+        font-size: 17px;
+    }
+    
+    .featured{
+        text-align: center;
+    }
+}
+
+@media(max-width:480px){
+    .jumbotron{
+        height: 600px;
+        margin:0;
+    }
+    .logo{
+        float: none;
+        width: 70;
+        height: 50px;
+    }
+    .featured p, .featured a{
+        font-size: 13px;
+    }
+    
+    .featured{
+        text-align: center;
+    }
+    
+    .trial img{
+        width: 100px;
+        height: 35px;
+        
+    }
+}
