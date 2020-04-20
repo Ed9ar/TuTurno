@@ -1,0 +1,39 @@
+html {
+    height: 100% !important;
+}
+
+body {
+    display: flex;
+    min-height: 100vh !important;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #ffb181;
+    min-height: 11vh;
+}
+
+.main {
+    flex: 1 0 auto;
+    background-color: #ffb181;
+    min-height: 100%;
+}
+
+.container {
+    min-height: 100%;
+}
+
+h3 {
+    line-height: 110%;
+    margin: 1rem 0 1rem 0;
+}
+
+.page-footer {
+    background-color: #ffffff;
+    min-height: 16vh;
+    padding-top: 4vh;
+}
+
+.footer-text {
+    color: #808080;
+}
