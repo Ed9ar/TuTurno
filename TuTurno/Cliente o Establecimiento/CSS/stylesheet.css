@@ -26,7 +26,7 @@ nav {
 }
 
 #logo {
-    height: 10vh;
+    height: 9vh;
     padding-left: 5%;
 }
 
@@ -37,8 +37,10 @@ nav {
 }
 
 #detail-img {
-    position: relative;
-    margin-right: 0;
+    position: absolute;
+    top: 25vh;
+    right: 0;
+    height: 25vh;
 }
 
 .container {
@@ -62,7 +64,7 @@ h2 {
     margin-bottom: 0;
 }
 
-.row .col.s2 {
+.main .row .col.s2 {
     margin: 0 !important;
     width: auto;
     background-color: #ff724f;
@@ -79,8 +81,22 @@ h2 {
     padding-top: 4vh;
 }
 
+.page-footer .container {
+    width: 80%;
+}
+
 .footer-text {
     color: #808080;
+}
+
+.page-footer .partners {
+    background-color: transparent;
+    width: 30%;
+}
+
+#middle {
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 @media only screen and (min-width: 993px){
