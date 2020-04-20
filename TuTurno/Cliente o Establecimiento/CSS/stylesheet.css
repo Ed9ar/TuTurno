@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'montheavy';
+    src: url('fonts/mont-heavy-webfont.eot');
+    src: url('fonts/mont-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mont-heavy-webfont.woff2') format('woff2'),
+         url('fonts/mont-heavy-webfont.woff') format('woff'),
+         url('fonts/Mont-Heavy.ttf') format('truetype'),
+         url('fonts/mont-heavy-webfont.svg#montheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     height: 100% !important;
 }
@@ -13,10 +25,20 @@ nav {
     min-height: 11vh;
 }
 
+#logo {
+    height: 10vh;
+    padding-left: 5%;
+}
+
 .main {
     flex: 1 0 auto;
     background-color: #ffb181;
     min-height: 100%;
+}
+
+#detail-img {
+    position: relative;
+    margin-right: 0;
 }
 
 .container {
@@ -26,6 +48,7 @@ nav {
 h2 {
     line-height: 70%;
     margin: 1rem 0 1rem 0;
+    font-family: 'montheavy', Helvetica, sans-serif !important;
 }
 
 .row .col.s5 {
